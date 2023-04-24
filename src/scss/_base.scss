@@ -24,8 +24,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
-  font-size: 1rem;
-  line-height: 1.25;
+  font-family: americane, sans-serif;
+  font-size: 17px;
+  color: #0f0f0f;
 }
 
 a {
@@ -42,3 +43,8 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+h1,
+h2 {
+  font-family: "obviously", sans-serif;
+}
