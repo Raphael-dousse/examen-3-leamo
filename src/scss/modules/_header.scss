@@ -1,12 +1,16 @@
 header {
   margin-bottom: 50px;
 }
+
 .header-logo .col {
-  background: #394949;
   padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.header-logo {
+  background: #394949;
 }
 
 .header-text {
@@ -19,7 +23,7 @@ header {
   letter-spacing: -0.28px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .header-img {
     display: none;
   }
