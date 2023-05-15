@@ -17,6 +17,15 @@
   line-height: 48px;
 }
 
+@media (min-width: 768px) {
+  .philosophy h1 {
+    font-family: Obviously-Medi;
+    font-size: 55px;
+    color: #ffffff;
+    letter-spacing: -3.28px;
+  }
+}
+
 .philosophy p {
   font-family: Americane-Regular;
   font-size: 17px;
@@ -24,6 +33,16 @@
   letter-spacing: 0;
   text-align: center;
   line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .philosophy p {
+    font-family: Americane-Regular;
+    font-size: 21px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+  }
 }
 
 .phylosophy-line {
