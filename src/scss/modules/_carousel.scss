@@ -6,19 +6,27 @@
   height: 400px;
 }
 
+.swiper-wriper {
+  display: flex;
+  justify-content: center;
+}
+
 .carousel-prev,
-.carousel-next  {
+.carousel-next {
   position: absolute;
-  top: 10px;
+  top: 164px;
   font-size: 30px;
   z-index: 10;
   cursor: pointer;
 }
-  .carousel-prev  {
-  left: 20px;
+
+.carousel-prev {
+  right: 560px;
 }
-  .carousel-next  {
-  left: 80px;
+
+.carousel-next {
+  left: 580px;
+  top: 41%;
 }
 
 .carousel-product a {
@@ -27,7 +35,7 @@
   color: #ffffff;
   letter-spacing: -0.88px;
   text-decoration: none;
-  padding: 15px 30px;
+  padding: 12px 30px;
   background-color: #a0e8b4;
   border-radius: 13px;
 }

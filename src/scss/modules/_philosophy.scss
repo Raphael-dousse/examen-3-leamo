@@ -1,3 +1,31 @@
 .philosophy {
   margin-top: 45px;
+  background: #3a4f40;
+}
+
+.philosophy img {
+  height: 180px;
+  clip-path: circle(40% at 50% 40%);
+}
+
+.philosophy p {
+  font-family: Americane-Regular;
+  font-size: 23px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.philosophy h1 {
+  font-family: Obviously-Medi;
+  font-size: 37px;
+  color: #ffffff;
+  letter-spacing: 2.32px;
+  text-align: center;
+  line-height: 48px;
+}
+
+.phylosophy-line {
+  border-top: 2px solid white;
+  margin: 50px 140px 50px 140px;
 }
