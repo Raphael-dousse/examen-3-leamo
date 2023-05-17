@@ -6,9 +6,10 @@
   height: 400px;
 }
 
-.swiper-wriper {
+.swiper-slide {
   display: flex;
   justify-content: center;
+  margin-left: 4px;
 }
 
 .carousel-prev,
@@ -21,15 +22,18 @@
 }
 
 .carousel-prev {
-  right: 560px;
+  left: 10px;
 }
 
 .carousel-next {
-  left: 580px;
-  top: 41%;
+  right: 10px;
 }
 
 .carousel-product a {
+  text-decoration: none;
+}
+
+.carousel-button-container {
   font-family: Obviously-Medi;
   font-size: 20px;
   color: #ffffff;
@@ -38,6 +42,11 @@
   padding: 12px 30px;
   background-color: #a0e8b4;
   border-radius: 13px;
+}
+
+.carousel-button-container :hover {
+  color: #a0e8b4;
+  background-color: #ffffff;
 }
 
 .carousel-button-container {

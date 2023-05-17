@@ -8,9 +8,74 @@
   color: #0f0f0f;
   letter-spacing: -0.66px;
   text-align: center;
-  text-decoration: black solid;
+  margin-bottom: 50px;
 }
 
 .taste .col-6 {
-  border: black solid 1px;
+  border: black solid 2px;
+  font-family: Obviously-Medi;
+  font-size: 33px;
+  letter-spacing: -1.44px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.taste h2 {
+  font-family: Obviously-Medi;
+  font-size: 33px;
+  letter-spacing: -1.44px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.recipe-text-1 {
+  color: #ffeb26;
+}
+
+.recipe-text-1:hover {
+  color: #ffffff;
+  background-color: #ffeb26;
+}
+
+.text-1 {
+  margin: 60px 30px;
+}
+
+.recipe-text-2 {
+  color: #422121;
+}
+
+.recipe-text-2:hover {
+  color: #ffffff;
+  background-color: #422121;
+}
+
+.text-2 {
+  margin: 60px 15px;
+}
+
+.recipe-text-3 {
+  color: #ececb2;
+}
+
+.recipe-text-3:hover {
+  color: #ffffff;
+  background-color: #ececb2;
+}
+
+.text-3 {
+  margin: 50px 5px;
+}
+
+.recipe-text-4 {
+  color: #ffbba9;
+}
+
+.recipe-text-4:hover {
+  color: #ffffff;
+  background-color: #ffbba9;
+}
+
+.text-4 {
+  margin: 60px 30px;
 }
