@@ -1,3 +1,35 @@
 .credit {
   margin-top: 140px;
+  background: #beccc2;
+}
+
+.credit img {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.credit p {
+  font-family: Americane-Regular;
+  font-size: 16px;
+  color: #938d8d;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 20px 15px 39px 15px;
+}
+
+.credit a {
+  font-family: Obviously-Medi;
+  font-size: 16px;
+  color: #ffffff;
+  letter-spacing: -0.7px;
+  padding: 10px 20px;
+  background: #3a4f40;
+  border-radius: 10px;
+}
+
+.credit-button {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
