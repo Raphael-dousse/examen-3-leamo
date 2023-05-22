@@ -26,6 +26,9 @@
   letter-spacing: -1.44px;
   text-align: center;
   line-height: 40px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  cursor: pointer;
 }
 
 .recipe-text-1 {
