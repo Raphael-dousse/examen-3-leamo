@@ -51,6 +51,8 @@
   letter-spacing: -0.88px;
   padding: 12px 10px;
   border-radius: 13px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 
 .carousel-base :hover {

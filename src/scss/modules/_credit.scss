@@ -1,6 +1,14 @@
 .credit {
   margin-top: 140px;
   background: #beccc2;
+  padding: 36px 15px 50px 15px;
+}
+
+@media (min-width: 768px) {
+  .credit {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .credit img {
@@ -18,7 +26,10 @@
   margin: 20px 15px 39px 15px;
 }
 
-.credit a {
+.credit-button {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
   font-family: Obviously-Medi;
   font-size: 16px;
   color: #ffffff;
@@ -26,10 +37,12 @@
   padding: 10px 20px;
   background: #3a4f40;
   border-radius: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 
-.credit-button {
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
+.credit-button:hover {
+  color: #3a4f40;
+  background: #beccc2;
+  border: solid 1px;
 }
