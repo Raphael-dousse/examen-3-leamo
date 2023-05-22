@@ -1,5 +1,12 @@
 .carousel-product {
   margin-top: 70px;
+  margin-bottom: 190px;
+}
+
+@media (min-width: 768px) {
+  .carousel-product {
+    margin-bottom: 290px;
+  }
 }
 
 .carousel-product img {
