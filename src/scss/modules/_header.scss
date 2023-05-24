@@ -23,6 +23,61 @@ header {
   letter-spacing: -0.28px;
 }
 
+.messagedefilant {
+  display: block;
+  margin: 1px auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 3090px;
+  height: 50px;
+}
+
+.messagedefilant div {
+  position: absolute;
+  min-width: 100%;
+}
+
+.messagedefilant div span,
+.messagedefilant div:after {
+  position: relative;
+  display: inline-block;
+  font-size: 29px;
+  white-space: nowrap;
+  top: 0;
+}
+
+.messagedefilant div span {
+  animation: defilement 10s infinite linear;
+}
+
+.messagedefilant div:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-text);
+  animation: defilement2 10s infinite linear;
+}
+
+@keyframes defilement {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+
+@keyframes defilement2 {
+  0% {
+    margin-left: 100%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
 @media (max-width: 768px) {
   .header-img {
     display: none;

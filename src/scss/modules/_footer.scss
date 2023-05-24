@@ -4,7 +4,7 @@ footer {
   font-family: HelveticaNeue-Bold;
   color: #ffffff;
   letter-spacing: -0.35px;
-  padding: 11px 15px;
+  padding: 35px 15px;
 }
 
 footer img {
@@ -19,6 +19,12 @@ footer,
 .col-12,
 a {
   font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  footer a {
+    font-size: 8px;
+  }
 }
 
 footer .col-12 {

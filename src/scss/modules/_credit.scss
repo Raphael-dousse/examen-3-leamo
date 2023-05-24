@@ -1,7 +1,7 @@
 .credit {
   margin-top: 140px;
   background: #beccc2;
-  padding: 36px 15px 50px 15px;
+  padding: 80px 15px 80px 15px;
 }
 
 @media (min-width: 768px) {
@@ -45,4 +45,10 @@
   color: #3a4f40;
   background: #beccc2;
   border: solid 1px;
+}
+
+.credit,
+.credit-logo {
+  display: flex;
+  justify-content: center;
 }
